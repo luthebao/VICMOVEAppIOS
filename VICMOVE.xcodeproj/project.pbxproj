@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BC27692806B3EA00EFB3C2 /* VICMOVEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */; };
+		60BC276B2806B3EA00EFB3C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC276A2806B3EA00EFB3C2 /* ContentView.swift */; };
+		60BC276D2806B3EB00EFB3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC276C2806B3EB00EFB3C2 /* Assets.xcassets */; };
+		60BC27702806B3EB00EFB3C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC276F2806B3EB00EFB3C2 /* Preview Assets.xcassets */; };
+		60BC277A2806B3EB00EFB3C2 /* VICMOVETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27792806B3EB00EFB3C2 /* VICMOVETests.swift */; };
+		60BC27842806B3EB00EFB3C2 /* VICMOVEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27832806B3EB00EFB3C2 /* VICMOVEUITests.swift */; };
+		60BC27862806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BC27762806B3EB00EFB3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BC275D2806B3EA00EFB3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BC27642806B3EA00EFB3C2;
+			remoteInfo = VICMOVE;
+		};
+		60BC27802806B3EB00EFB3C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BC275D2806B3EA00EFB3C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BC27642806B3EA00EFB3C2;
+			remoteInfo = VICMOVE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60BC27652806B3EA00EFB3C2 /* VICMOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VICMOVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEApp.swift; sourceTree = "<group>"; };
+		60BC276A2806B3EA00EFB3C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60BC276C2806B3EB00EFB3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BC276F2806B3EB00EFB3C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60BC27752806B3EB00EFB3C2 /* VICMOVETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICMOVETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BC27792806B3EB00EFB3C2 /* VICMOVETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVETests.swift; sourceTree = "<group>"; };
+		60BC277F2806B3EB00EFB3C2 /* VICMOVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICMOVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BC27832806B3EB00EFB3C2 /* VICMOVEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEUITests.swift; sourceTree = "<group>"; };
+		60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BC27622806B3EA00EFB3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC27722806B3EB00EFB3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC277C2806B3EB00EFB3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BC275C2806B3EA00EFB3C2 = {
+			isa = PBXGroup;
+			children = (
+				60BC27672806B3EA00EFB3C2 /* VICMOVE */,
+				60BC27782806B3EB00EFB3C2 /* VICMOVETests */,
+				60BC27822806B3EB00EFB3C2 /* VICMOVEUITests */,
+				60BC27662806B3EA00EFB3C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BC27662806B3EA00EFB3C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BC27652806B3EA00EFB3C2 /* VICMOVE.app */,
+				60BC27752806B3EB00EFB3C2 /* VICMOVETests.xctest */,
+				60BC277F2806B3EB00EFB3C2 /* VICMOVEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BC27672806B3EA00EFB3C2 /* VICMOVE */ = {
+			isa = PBXGroup;
+			children = (
+				60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */,
+				60BC276A2806B3EA00EFB3C2 /* ContentView.swift */,
+				60BC276C2806B3EB00EFB3C2 /* Assets.xcassets */,
+				60BC276E2806B3EB00EFB3C2 /* Preview Content */,
+			);
+			path = VICMOVE;
+			sourceTree = "<group>";
+		};
+		60BC276E2806B3EB00EFB3C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60BC276F2806B3EB00EFB3C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60BC27782806B3EB00EFB3C2 /* VICMOVETests */ = {
+			isa = PBXGroup;
+			children = (
+				60BC27792806B3EB00EFB3C2 /* VICMOVETests.swift */,
+			);
+			path = VICMOVETests;
+			sourceTree = "<group>";
+		};
+		60BC27822806B3EB00EFB3C2 /* VICMOVEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60BC27832806B3EB00EFB3C2 /* VICMOVEUITests.swift */,
+				60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */,
+			);
+			path = VICMOVEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BC27642806B3EA00EFB3C2 /* VICMOVE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BC27892806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVE" */;
+			buildPhases = (
+				60BC27612806B3EA00EFB3C2 /* Sources */,
+				60BC27622806B3EA00EFB3C2 /* Frameworks */,
+				60BC27632806B3EA00EFB3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VICMOVE;
+			productName = VICMOVE;
+			productReference = 60BC27652806B3EA00EFB3C2 /* VICMOVE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BC27742806B3EB00EFB3C2 /* VICMOVETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BC278C2806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVETests" */;
+			buildPhases = (
+				60BC27712806B3EB00EFB3C2 /* Sources */,
+				60BC27722806B3EB00EFB3C2 /* Frameworks */,
+				60BC27732806B3EB00EFB3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BC27772806B3EB00EFB3C2 /* PBXTargetDependency */,
+			);
+			name = VICMOVETests;
+			productName = VICMOVETests;
+			productReference = 60BC27752806B3EB00EFB3C2 /* VICMOVETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60BC277E2806B3EB00EFB3C2 /* VICMOVEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BC278F2806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVEUITests" */;
+			buildPhases = (
+				60BC277B2806B3EB00EFB3C2 /* Sources */,
+				60BC277C2806B3EB00EFB3C2 /* Frameworks */,
+				60BC277D2806B3EB00EFB3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BC27812806B3EB00EFB3C2 /* PBXTargetDependency */,
+			);
+			name = VICMOVEUITests;
+			productName = VICMOVEUITests;
+			productReference = 60BC277F2806B3EB00EFB3C2 /* VICMOVEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BC275D2806B3EA00EFB3C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					60BC27642806B3EA00EFB3C2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					60BC27742806B3EB00EFB3C2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 60BC27642806B3EA00EFB3C2;
+					};
+					60BC277E2806B3EB00EFB3C2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 60BC27642806B3EA00EFB3C2;
+					};
+				};
+			};
+			buildConfigurationList = 60BC27602806B3EA00EFB3C2 /* Build configuration list for PBXProject "VICMOVE" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BC275C2806B3EA00EFB3C2;
+			productRefGroup = 60BC27662806B3EA00EFB3C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BC27642806B3EA00EFB3C2 /* VICMOVE */,
+				60BC27742806B3EB00EFB3C2 /* VICMOVETests */,
+				60BC277E2806B3EB00EFB3C2 /* VICMOVEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BC27632806B3EA00EFB3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC27702806B3EB00EFB3C2 /* Preview Assets.xcassets in Resources */,
+				60BC276D2806B3EB00EFB3C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC27732806B3EB00EFB3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC277D2806B3EB00EFB3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BC27612806B3EA00EFB3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC276B2806B3EA00EFB3C2 /* ContentView.swift in Sources */,
+				60BC27692806B3EA00EFB3C2 /* VICMOVEApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC27712806B3EB00EFB3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC277A2806B3EB00EFB3C2 /* VICMOVETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BC277B2806B3EB00EFB3C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BC27862806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift in Sources */,
+				60BC27842806B3EB00EFB3C2 /* VICMOVEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BC27772806B3EB00EFB3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BC27642806B3EA00EFB3C2 /* VICMOVE */;
+			targetProxy = 60BC27762806B3EB00EFB3C2 /* PBXContainerItemProxy */;
+		};
+		60BC27812806B3EB00EFB3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BC27642806B3EA00EFB3C2 /* VICMOVE */;
+			targetProxy = 60BC27802806B3EB00EFB3C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60BC27872806B3EB00EFB3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60BC27882806B3EB00EFB3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BC278A2806B3EB00EFB3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VICMOVE/Preview Content\"";
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BC278B2806B3EB00EFB3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VICMOVE/Preview Content\"";
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60BC278D2806B3EB00EFB3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICMOVE.app/VICMOVE";
+			};
+			name = Debug;
+		};
+		60BC278E2806B3EB00EFB3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VICMOVE.app/VICMOVE";
+			};
+			name = Release;
+		};
+		60BC27902806B3EB00EFB3C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VICMOVE;
+			};
+			name = Debug;
+		};
+		60BC27912806B3EB00EFB3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JY9S9877S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VICMOVE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BC27602806B3EA00EFB3C2 /* Build configuration list for PBXProject "VICMOVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC27872806B3EB00EFB3C2 /* Debug */,
+				60BC27882806B3EB00EFB3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BC27892806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC278A2806B3EB00EFB3C2 /* Debug */,
+				60BC278B2806B3EB00EFB3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BC278C2806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC278D2806B3EB00EFB3C2 /* Debug */,
+				60BC278E2806B3EB00EFB3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BC278F2806B3EB00EFB3C2 /* Build configuration list for PBXNativeTarget "VICMOVEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BC27902806B3EB00EFB3C2 /* Debug */,
+				60BC27912806B3EB00EFB3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BC275D2806B3EA00EFB3C2 /* Project object */;
+}
