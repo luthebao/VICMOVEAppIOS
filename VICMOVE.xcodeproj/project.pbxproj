@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60893DFB2807E9E1000E20C7 /* CurveSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60893DFA2807E9E1000E20C7 /* CurveSide.swift */; };
+		60AFCDEB2806CBDE00ABBC64 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFCDEA2806CBDE00ABBC64 /* Color.swift */; };
 		60BC27692806B3EA00EFB3C2 /* VICMOVEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */; };
 		60BC276B2806B3EA00EFB3C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC276A2806B3EA00EFB3C2 /* ContentView.swift */; };
 		60BC276D2806B3EB00EFB3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC276C2806B3EB00EFB3C2 /* Assets.xcassets */; };
@@ -14,6 +16,14 @@
 		60BC277A2806B3EB00EFB3C2 /* VICMOVETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27792806B3EB00EFB3C2 /* VICMOVETests.swift */; };
 		60BC27842806B3EB00EFB3C2 /* VICMOVEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27832806B3EB00EFB3C2 /* VICMOVEUITests.swift */; };
 		60BC27862806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */; };
+		60BC27942806B4CA00EFB3C2 /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60BC27932806B4CA00EFB3C2 /* JosefinSans-Bold.ttf */; };
+		60BC27962806B4D900EFB3C2 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60BC27952806B4D900EFB3C2 /* JosefinSans-Regular.ttf */; };
+		60BC27982806B4FB00EFB3C2 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27972806B4FB00EFB3C2 /* Webview.swift */; };
+		60BC279A2806B51100EFB3C2 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC27992806B51100EFB3C2 /* Running.swift */; };
+		60BC279C2806BCA500EFB3C2 /* ColorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC279B2806BCA500EFB3C2 /* ColorUI.swift */; };
+		60BF4AB2280D18900015B991 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BF4AB1280D18900015B991 /* CoreMotion.framework */; };
+		60E824E7280E8C7F00910E63 /* ResultPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E824E6280E8C7F00910E63 /* ResultPopup.swift */; };
+		60E824E9280E950000910E63 /* SpeedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E824E8280E950000910E63 /* SpeedCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60893DFA2807E9E1000E20C7 /* CurveSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveSide.swift; sourceTree = "<group>"; };
+		60AFCDE82806C61C00ABBC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		60AFCDEA2806CBDE00ABBC64 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		60BC27652806B3EA00EFB3C2 /* VICMOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VICMOVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEApp.swift; sourceTree = "<group>"; };
 		60BC276A2806B3EA00EFB3C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,14 @@
 		60BC277F2806B3EB00EFB3C2 /* VICMOVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VICMOVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BC27832806B3EB00EFB3C2 /* VICMOVEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEUITests.swift; sourceTree = "<group>"; };
 		60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VICMOVEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60BC27932806B4CA00EFB3C2 /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		60BC27952806B4D900EFB3C2 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		60BC27972806B4FB00EFB3C2 /* Webview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+		60BC27992806B51100EFB3C2 /* Running.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		60BC279B2806BCA500EFB3C2 /* ColorUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUI.swift; sourceTree = "<group>"; };
+		60BF4AB1280D18900015B991 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		60E824E6280E8C7F00910E63 /* ResultPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPopup.swift; sourceTree = "<group>"; };
+		60E824E8280E950000910E63 /* SpeedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BF4AB2280D18900015B991 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60AFCDE92806CBC500ABBC64 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				60AFCDEA2806CBDE00ABBC64 /* Color.swift */,
+				60893DFA2807E9E1000E20C7 /* CurveSide.swift */,
+				60E824E8280E950000910E63 /* SpeedCircle.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		60BC275C2806B3EA00EFB3C2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +110,7 @@
 				60BC27782806B3EB00EFB3C2 /* VICMOVETests */,
 				60BC27822806B3EB00EFB3C2 /* VICMOVEUITests */,
 				60BC27662806B3EA00EFB3C2 /* Products */,
+				60BF4AB0280D18900015B991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +127,12 @@
 		60BC27672806B3EA00EFB3C2 /* VICMOVE */ = {
 			isa = PBXGroup;
 			children = (
+				60AFCDE82806C61C00ABBC64 /* Info.plist */,
+				60BC27952806B4D900EFB3C2 /* JosefinSans-Regular.ttf */,
+				60BC27932806B4CA00EFB3C2 /* JosefinSans-Bold.ttf */,
+				60E824E3280E8C1600910E63 /* containers */,
+				60AFCDE92806CBC500ABBC64 /* components */,
+				60BC27922806B49E00EFB3C2 /* views */,
 				60BC27682806B3EA00EFB3C2 /* VICMOVEApp.swift */,
 				60BC276A2806B3EA00EFB3C2 /* ContentView.swift */,
 				60BC276C2806B3EB00EFB3C2 /* Assets.xcassets */,
@@ -125,6 +164,32 @@
 				60BC27852806B3EB00EFB3C2 /* VICMOVEUITestsLaunchTests.swift */,
 			);
 			path = VICMOVEUITests;
+			sourceTree = "<group>";
+		};
+		60BC27922806B49E00EFB3C2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				60BC27992806B51100EFB3C2 /* Running.swift */,
+				60BC27972806B4FB00EFB3C2 /* Webview.swift */,
+				60BC279B2806BCA500EFB3C2 /* ColorUI.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		60BF4AB0280D18900015B991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BF4AB1280D18900015B991 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E824E3280E8C1600910E63 /* containers */ = {
+			isa = PBXGroup;
+			children = (
+				60E824E6280E8C7F00910E63 /* ResultPopup.swift */,
+			);
+			path = containers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BC27702806B3EB00EFB3C2 /* Preview Assets.xcassets in Resources */,
+				60BC27962806B4D900EFB3C2 /* JosefinSans-Regular.ttf in Resources */,
 				60BC276D2806B3EB00EFB3C2 /* Assets.xcassets in Resources */,
+				60BC27942806B4CA00EFB3C2 /* JosefinSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E824E9280E950000910E63 /* SpeedCircle.swift in Sources */,
+				60BC27982806B4FB00EFB3C2 /* Webview.swift in Sources */,
+				60AFCDEB2806CBDE00ABBC64 /* Color.swift in Sources */,
+				60BC279A2806B51100EFB3C2 /* Running.swift in Sources */,
+				60893DFB2807E9E1000E20C7 /* CurveSide.swift in Sources */,
 				60BC276B2806B3EA00EFB3C2 /* ContentView.swift in Sources */,
+				60BC279C2806BCA500EFB3C2 /* ColorUI.swift in Sources */,
 				60BC27692806B3EA00EFB3C2 /* VICMOVEApp.swift in Sources */,
+				60E824E7280E8C7F00910E63 /* ResultPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,27 +488,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VICMOVE/Preview Content\"";
 				DEVELOPMENT_TEAM = JY9S9877S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VICMOVE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VICMOVE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app requires motion to read steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVE;
+				PRODUCT_BUNDLE_IDENTIFIER = vim.VICMOVE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,27 +524,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VICMOVE/Preview Content\"";
 				DEVELOPMENT_TEAM = JY9S9877S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VICMOVE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VICMOVE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app requires motion to read steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vicmove.VICMOVE;
+				PRODUCT_BUNDLE_IDENTIFIER = vim.VICMOVE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

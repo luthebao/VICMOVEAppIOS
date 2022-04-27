@@ -2,15 +2,25 @@
 //  ContentView.swift
 //  VICMOVE
 //
-//  Created by BeyonderLuu on 13/04/2022.
-//
+//  Created by BeyonderLuu on 12/04/2022.
 
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = WebViewModel(link: "https://app.vicmove.com/", running: false)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                SwiftUIWebView(viewModel: model)
+                    .navigationBarHidden(true)
+                    .edgesIgnoringSafeArea([.bottom])
+                
+                NavigationLink(destination: Running(), isActive: $model.running) {
+                    EmptyView()
+                }.hidden()
+            }
+        }
     }
 }
 
